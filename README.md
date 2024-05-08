@@ -1,5 +1,7 @@
 # LocalMotorsport
 
+A PWA that allows people to follow any type of motorsport events in their local area.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
 ## Development server
