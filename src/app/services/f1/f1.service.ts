@@ -20,4 +20,11 @@ export class F1Service {
       .then(data => data)
       .catch(error => console.error(error));
   }
+
+  getStandings(): Promise<any>{
+    return fetch('https://ergast.com/api/f1/current/driverStandings.json')
+      .then(response => response.json())
+      .then(data => data)
+      .catch(error => console.error(error));
+  }
 }

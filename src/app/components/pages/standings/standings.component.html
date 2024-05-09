@@ -1,1 +1,15 @@
-<p>standings works!</p>
+<div
+    class="flex flex-col items-center text-center p-8 min-h-[380px] bg-gradient-to-t from-gray-800 to-gray-600 text-white w-full font-sans">
+    <h1 class="text-4xl mb-4">F1 Standings</h1>
+    <div class="md:max-w-5xl mx-auto flex flex-wrap justify-center">
+        @for (driver of standings; track $index) {
+        <div class="w-48 h-56 shadow-lg rounded-md m-3 bg-gray-500 p-2 hover:bg-slate-600 transition flex flex-col justify-between">
+            <div>
+                <h3>{{$index + 1}}</h3>
+                <h5>{{driver.Driver.givenName}} {{driver.Driver.familyName}}</h5>
+                <h4>{{driver.points}} points</h4>
+            </div>
+        </div>
+        }
+    </div>
+</div>
