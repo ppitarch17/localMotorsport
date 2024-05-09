@@ -1,1 +1,16 @@
-<p>f2schedule works!</p>
+<div
+    class="flex flex-col items-center text-center p-8 min-h-[380px] bg-gradient-to-b from-gray-800 via-gray-600 to-gray-800 text-white w-full font-sans">
+    <h1 class="text-4xl mb-4">F2 Schedule</h1>
+    <div class="w-full md:w-3/4 lg:w-1/2 mx-auto flex flex-col justify-center">
+        @for (race of f2Schedule; track $index) {
+        <div class="w-full h-max rounded-md m-3 p-2 hover:bg-slate-500 transition flex flex-col justify-between text-left"
+            [class]="race.past ? 'text-gray-400' : ''">
+            <div>
+                <h3 class="text-xl font-bold">Round {{race.round}} <span class="fi" [class]="getCode(race.Circuit.Location.country)"></span></h3>
+                <h4>{{race.raceName}}</h4>
+            </div>
+            <p>{{race.date | datepipe }} {{race.time}}</p>
+        </div>
+        }
+    </div>
+</div>
