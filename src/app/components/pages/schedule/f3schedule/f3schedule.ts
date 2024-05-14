@@ -1,4 +1,4 @@
-export const f2schedule = [
+export const f3schedule = [
     {
         "season": "2024",
         "round": "1",
@@ -16,31 +16,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-03-02",
-        "time": "10:30:00Z",
+        "time": "09:00:00Z",
     },
     {
-
         "season": "2024",
         "round": "2",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Saudi_Arabian_Grand_Prix",
-        "raceName": "Saudi Arabian Grand Prix",
-        "Circuit": {
-            "circuitId": "jeddah",
-            "url": "http:\/\/en.wikipedia.org\/wiki\/Jeddah_Street_Circuit",
-            "circuitName": "Jeddah Corniche Circuit",
-            "Location": {
-                "lat": "21.6319",
-                "long": "39.1044",
-                "locality": "Jeddah",
-                "country": "Saudi Arabia"
-            }
-        },
-        "date": "2024-03-09",
-        "time": "13:30:00Z"
-    },
-    {
-        "season": "2024",
-        "round": "3",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Australian_Grand_Prix",
         "raceName": "Australian Grand Prix",
         "Circuit": {
@@ -54,12 +34,12 @@ export const f2schedule = [
                 "country": "Australia"
             }
         },
-        "date": "2024-03-24",
-        "time": "00:35:00Z",
+        "date": "2024-03-23",
+        "time": "22:05:00Z",
     },
     {
         "season": "2024",
-        "round": "4",
+        "round": "3",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Emilia_Romagna_Grand_Prix",
         "raceName": "Emilia Romagna Grand Prix",
         "Circuit": {
@@ -74,11 +54,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-05-19",
-        "time": "08:00:00Z",
+        "time": "06:30:00Z",
     },
     {
         "season": "2024",
-        "round": "5",
+        "round": "4",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Monaco_Grand_Prix",
         "raceName": "Monaco Grand Prix",
         "Circuit": {
@@ -93,11 +73,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-05-26",
-        "time": "07:40:00Z"
+        "time": "06:00:00Z"
     },
     {
         "season": "2024",
-        "round": "6",
+        "round": "5",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Spanish_Grand_Prix",
         "raceName": "Spanish Grand Prix",
         "Circuit": {
@@ -112,11 +92,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-06-23",
-        "time": "08:40:00Z"
+        "time": "07:20:00Z"
     },
     {
         "season": "2024",
-        "round": "7",
+        "round": "6",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Austrian_Grand_Prix",
         "raceName": "Austrian Grand Prix",
         "Circuit": {
@@ -131,11 +111,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-06-30",
-        "time": "09:40:00Z"
+        "time": "07:20:00Z"
     },
     {
         "season": "2024",
-        "round": "8",
+        "round": "7",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_British_Grand_Prix",
         "raceName": "British Grand Prix",
         "Circuit": {
@@ -150,11 +130,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-07-07",
-        "time": "09:40:00Z"
+        "time": "08:20:00Z"
     },
     {
         "season": "2024",
-        "round": "9",
+        "round": "8",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Hungarian_Grand_Prix",
         "raceName": "Hungarian Grand Prix",
         "Circuit": {
@@ -169,11 +149,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-07-21",
-        "time": "08:40:00Z"
+        "time": "07:20:00Z"
     },
     {
         "season": "2024",
-        "round": "10",
+        "round": "9",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Belgian_Grand_Prix",
         "raceName": "Belgian Grand Prix",
         "Circuit": {
@@ -188,11 +168,11 @@ export const f2schedule = [
             }
         },
         "date": "2024-07-28",
-        "time": "08:40:00Z"
+        "time": "07:20:00Z"
     },
     {
         "season": "2024",
-        "round": "11",
+        "round": "10",
         "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Italian_Grand_Prix",
         "raceName": "Italian Grand Prix",
         "Circuit": {
@@ -207,63 +187,6 @@ export const f2schedule = [
             }
         },
         "date": "2024-09-01",
-        "time": "08:40:00Z"
-    },
-    {
-        "season": "2024",
-        "round": "12",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Azerbaijan_Grand_Prix",
-        "raceName": "Azerbaijan Grand Prix",
-        "Circuit": {
-            "circuitId": "baku",
-            "url": "http:\/\/en.wikipedia.org\/wiki\/Baku_City_Circuit",
-            "circuitName": "Baku City Circuit",
-            "Location": {
-                "lat": "40.3725",
-                "long": "49.8533",
-                "locality": "Baku",
-                "country": "Azerbaijan"
-            }
-        },
-        "date": "2024-09-15",
-        "time": "06:40:00Z"
-    },
-    {
-        "season": "2024",
-        "round": "13",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Qatar_Grand_Prix",
-        "raceName": "Qatar Grand Prix",
-        "Circuit": {
-            "circuitId": "losail",
-            "url": "http:\/\/en.wikipedia.org\/wiki\/Losail_International_Circuit",
-            "circuitName": "Losail International Circuit",
-            "Location": {
-                "lat": "25.49",
-                "long": "51.4542",
-                "locality": "Al Daayen",
-                "country": "Qatar"
-            }
-        },
-        "date": "2024-12-01",
-        "time": "07:40:00Z"
-    },
-    {
-        "season": "2024",
-        "round": "14",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/2024_Abu_Dhabi_Grand_Prix",
-        "raceName": "Abu Dhabi Grand Prix",
-        "Circuit": {
-            "circuitId": "yas_marina",
-            "url": "http:\/\/en.wikipedia.org\/wiki\/Yas_Marina_Circuit",
-            "circuitName": "Yas Marina Circuit",
-            "Location": {
-                "lat": "24.4672",
-                "long": "54.6031",
-                "locality": "Abu Dhabi",
-                "country": "UAE"
-            }
-        },
-        "date": "2024-12-08",
-        "time": "06:40:00Z"
+        "time": "07:20:00Z"
     }
-]
+];
